@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.header .right a:hover {
+    color: #859F4F;
+}
+
+.header .right a:focus {
+    outline: none;
+}
+
+.header .right a.login {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #6c757d;
+}
+
+.header .right a.login:hover {
+    color: #859F4F;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('/Source/Backroud dasboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #8bc34a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-sort {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    color: #6c757d;
+}
+
+.filter-sort span {
+    margin: 0 10px;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    gap: 20px; /* Space between items */
+    justify-items: center;
+    padding: 20px;
+}
+
+.car-item {
+    max-width: 300px; /* Sets the maximum width of each item */
+    text-align: center;
+}
+
+.car-item img {
+    width: 100%; /* Sets the width to 100% of the item */
+    max-height: 150px; /* Sets a maximum height for the images */
+    object-fit: contain; /* Ensures the entire image fits without being cut off */
+    border-radius: 10px; /* Optional: rounds the corners of the images */
+}
+
+.car-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: black; /* Default color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.car-item h3:hover {
+    color: #859F4F; /* Hover color */
+}
+
+.car-item p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.pic {
+    transform: scaleX(-1);
+}

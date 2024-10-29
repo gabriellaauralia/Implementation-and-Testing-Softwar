@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header .right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .right-menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.header .right-menu a i {
+    margin-right: 5px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('/Source/Backroud dasboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #8bc34a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hummer-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.hummer-image {
+    width: 300px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hummer-details {
+    padding: 20px;
+}
+
+.hummer-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hummer-details p {
+    margin: 5px 0;
+    color: #6c757d;
+}
+
+.hummer-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hummer-rating span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.hummer-rating .stars {
+    color: #ffc107;
+}
+
+.hummer-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hummer-price .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8bc34a;
+}
+
+.hummer-price .daily-price {
+    color: #6c757d;
+}
+
+.hummer-price .continue-button {
+    padding: 10px 20px;
+    background-color: #8bc34a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
