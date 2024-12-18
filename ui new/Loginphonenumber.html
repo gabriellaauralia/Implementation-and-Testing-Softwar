@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-gray-200">
+    <div class="bg-gray-300 h-12 w-full"></div>
+    <div class="flex min-h-screen">
+        <div class="w-1/2 relative">
+            <img alt="A car parked on a mountain road with a scenic view of trees and hills" class="w-full h-full object-cover" height="600" src="/Source/coverlogin.png" width="800"/>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center font-bold text-6xl" style="font-family: 'Fredoka One', cursive;">
+                    anytime
+                    <br/>
+                    anywhere
+                    <br/>
+                    with ease
+                    <br/>
+                    and no
+                    <br/>
+                    hassle
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 bg-white flex items-center justify-center">
+            <div class="w-3/4">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold">Login</h2>
+                    <a class="text-red-500 text-sm" href="#">Login with Email</a>
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-gray-700" for="phone">Phone Number</label>
+                        <div class="flex mt-1">
+                            <input class="w-1/4 border border-orange-500 rounded-l px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500" id="country-code" name="country-code" type="text" value="+62"/>
+                            <input class="w-3/4 border border-orange-500 rounded-r px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500" id="phone" name="phone" placeholder="8XX XXXX XXXX" type="text"/>
+                        </div>
+                    </div>
+                    <button class="w-full bg-orange-500 text-white py-2 rounded mt-4" type="submit">Continue</button>
+                </form>
+                <p class="mt-4 text-center text-sm">
+                    Don’t have an account?
+                    <a class="text-red-500" href="#">Sign up now</a>
+                </p>
+                <p class="mt-4 text-center text-xs text-gray-500">
+                    By logging in, you agree to the
+                    <a class="text-red-500" href="#">Terms and Conditions</a>
+                    and
+                    <a class="text-red-500" href="#">Privacy Policy</a>
+                    of TurismoGT
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

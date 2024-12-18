@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+        Booking Page
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<header class="bg-gray-300">
+    <div class="bg-gray-400 h-4"></div>
+    <div class="bg-white">
+        <div class="flex justify-between items-center py-4 px-2">
+            <div class="flex items-center">
+                <img alt="TurismoGT Logo" class="mr-2" height="150" src="/Source/new logo.png" width="150"/>
+                <span class="text-lg font-bold">
+                    
+                </span>
+            </div>
+            <nav class="flex space-x-4 mt-4">
+                <a class="text-orange-500" href="#">
+                    About Us
+                </a>
+                <a class="text-orange-500" href="#">
+                    Blog
+                </a>
+                <a class="text-orange-500" href="#">
+                    Help Center
+                </a>
+                <a class="text-orange-500" href="#">
+                    Mail
+                </a>
+                <a class="bg-orange-500 text-white px-4 py-2 rounded mt-[-8px]" href="#">
+                    Welcome Asep
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="container mx-auto mt-8 px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+            <h2 class="text-xl font-bold mb-4">
+                Pickup Location
+            </h2>
+            <p class="mb-4">
+                Monday, 18 November 2024
+            </p>
+            <div class="mb-4">
+                <label class="block mb-2 text-orange-500">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Choose Pickup Location
+                </label>
+                <input class="w-full border border-orange-500 rounded p-2" type="text"/>
+            </div>
+            <div class="mb-4">
+                <label class="block mb-2">
+                    Notes
+                </label>
+                <textarea class="w-full border border-orange-500 rounded p-2"></textarea>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow mt-6">
+                <h2 class="text-xl font-bold mb-4">
+                    Contact Detail
+                </h2>
+                <p>
+                    Amba Tuka
+                </p>
+                <p>
+                    AmbaTuka@gmail.com
+                </p>
+                <p>
+                    +62 866-6886-8686
+                </p>
+                <a class="text-red-500 mt-4 inline-block" href="#">
+                    Edit Information?
+                </a>
+            </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+            <h2 class="text-xl font-bold mb-4 text-center">
+                Daihatsu Terios
+            </h2>
+            <div class="flex justify-center items-center mb-4">
+                <img alt="Daihatsu Terios" class="mr-4" height="150" src="/Source/Terios.png" width="150"/>
+                <div>
+                    <p>
+                        <i class="fas fa-users text-orange-500"></i>
+                        6 Seat
+                    </p>
+                    <p>
+                        <i class="fas fa-suitcase text-orange-500"></i>
+                        2 Baggage
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-between items-center mb-4">
+                <div>
+                    <h3 class="font-bold text-orange-500">
+                        Start
+                    </h3>
+                    <p>
+                        Mon, 18 Nov 2024
+                    </p>
+                    <p>
+                        05:00
+                    </p>
+                </div>
+                <i class="fas fa-arrow-right text-orange-500 text-2xl"></i>
+                <div class="text-right">
+                    <h3 class="font-bold text-orange-500">
+                        End
+                    </h3>
+                    <p>
+                        Tue, 19 Nov 2024
+                    </p>
+                    <p>
+                        05:00
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-gray-300 my-4"></div>
+            <div class="mb-4">
+                <h3 class="font-bold text-orange-500">
+                    Price
+                </h3>
+                <p>
+                    Daihatsu Terios
+                </p>
+                <p>
+                    1 Day
+                    <span class="float-right">
+                        Rp 300.000
+                    </span>
+                </p>
+            </div>
+            <div class="border-t border-gray-300 my-4"></div>
+            <div class="flex justify-between items-center">
+                <h3 class="font-bold text-orange-500">
+                    Total Price
+                </h3>
+                <p class="text-orange-500 font-bold">
+                    Rp 300.000
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-6">
+        <button class="bg-orange-500 text-white px-6 py-2 rounded">
+            Continue to Payment
+        </button>
+    </div>
+</main>
+</body>
+</html>
